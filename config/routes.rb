@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
-  # The priority is based upon order of creation: first created -> highest priority.
+  root 'application#hello'
+  # The priority is basedgit remote add origin https://github.com/Dexter7808/todo_app.git
   # See how all your routes lay out with "rake routes".
 
   # You can have the root of your site routed with "root"
