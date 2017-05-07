@@ -7,6 +7,8 @@ Rails.application.routes.draw do
   
   get 'list/1' => 'list#first'
   
+  get 'list/2' => 'list#second'
+  
   
   
   
