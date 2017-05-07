@@ -1,9 +1,15 @@
 Rails.application.routes.draw do
   get 'list/index'
 
-  get 'list/index'
 
   root 'list#index'
+  
+  
+  get 'list/1' => 'list#first'
+  
+  
+  
+  
   # The priority is basedgit remote add origin https://github.com/Dexter7808/todo_app.git
   # See how all your routes lay out with "rake routes".
 
