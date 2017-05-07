@@ -1,0 +1,114 @@
+<style>
+
+
+
+table: {
+         border: 1px solid black;
+         width: 100%
+       }
+       
+       
+       
+       
+       
+</style>
+<head>
+
+
+
+
+
+
+
+
+
+
+</head>
+<body>
+
+ <table border>
+    <tr>
+      <strong id:= "word"> Check Calendar </strong> <br>
+      <strong> To-Do List</strong>
+        
+      <th> Check </th>
+      <th> Assignments </th>
+      <th>Details </th>
+      <th> Due date </th>
+      <th> Approximate time </th>
+      <th> Add photo here </th>
+      </tr>
+      <tr>
+          <td>O</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+            <td>O</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            </tr>
+            <tr>
+        <td>O</td>        
+    <td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<td>O</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+    <td>O</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+    <td>O</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+    <td>O</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>

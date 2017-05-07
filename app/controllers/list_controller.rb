@@ -39,4 +39,7 @@ class ListController < ApplicationController
   
   def second
   end
+  
+  def third 
+  end  
 end

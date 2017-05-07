@@ -11,6 +11,8 @@ Rails.application.routes.draw do
   
   # get 'list/2' => 'list#second'
   
+   # get 'list/3' => 'list#third'
+  
   
   
   
