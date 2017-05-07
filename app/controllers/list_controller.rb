@@ -2,13 +2,7 @@ class ListController < ApplicationController
   def index
   end
   
-  def first
-    
-  def index
-  end 
-  
-  def second
-  end
-    
+  def show
+  @id = params['id']
   end
 end
