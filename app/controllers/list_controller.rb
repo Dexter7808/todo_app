@@ -4,7 +4,7 @@ class ListController < ApplicationController
     @assignment_one_pomodoro_estimate = "4 pomodoros"
   end
 
-  def show
+  
     @id = params['id']
     
     if @id == "1"  
@@ -31,8 +31,19 @@ class ListController < ApplicationController
     
       @third_todo_description = "Wash dishes"
       @third_todo_pomodoro_estimate = "2 pomodoros"
+    elsif @id == 3
+      #todo list three
+      @list_name = "Weekend Ritual"
+    
+      @first_todo_description = "Wake up at 7am to walk the dog"
+      @first_todo_pomodoro_estimate = "4 pomodoros"
+    
+      @second_todo_description = "clean bathroom from 12-1"
+      @second_todo_pomodoro_estimate = "2 pomodoros"
+    
+      @third_todo_description = "Pick up Sammy from Sat School at 3"
+      @third_todo_pomodoro_estimate = "3 pomodoros"
     end
-  end
   
   def first
   end
@@ -40,6 +51,6 @@ class ListController < ApplicationController
   def second
   end
   
-  def third 
-  end  
+  def third
+  end
 end
