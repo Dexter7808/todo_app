@@ -4,7 +4,8 @@ class ListController < ApplicationController
     @assignment_one_pomodoro_estimate = "4 pomodoros"
   end
 
-  
+    def index
+    
     @id = params['id']
     
     if @id == "1"  
@@ -52,5 +53,6 @@ class ListController < ApplicationController
   end
   
   def third
-  end
+  end    
+    end
 end
