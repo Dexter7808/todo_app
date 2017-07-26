@@ -53,6 +53,6 @@ class ListController < ApplicationController
   end
   
   def third
-  end    
+  end
     end
 end
